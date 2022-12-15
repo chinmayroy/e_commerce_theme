@@ -5,8 +5,8 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
                     <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img style="height:50px; widht:auto;" src="/e_commerce_theme/static/src/img/logo.png"/>
+                        <a class="navbar-brand" href="/">
+                            <img style="height:40px; width:auto;" src="/e_commerce_theme/static/src/img/logo.png"/>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -14,7 +14,7 @@
                             <span class="navbar-toggler-icon"/>
                         </button>
 
-                        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <t t-foreach="website.menu_id.child_id" t-as="submenu">
                                     <t t-call="website.submenu">
@@ -23,6 +23,17 @@
                                     </t>
                                 </t>
                             </ul>
+
+                            <div class="input-group md-form form-sm form-2 pl-0">
+                                <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search"
+                                       aria-label="Search"/>
+                                <div class="input-group-append">
+                                    <span class="input-group-text red lighten-3" id="basic-text1">
+                                        <i class="fas fa-search text-grey" aria-hidden="true"/>
+                                    </span>
+                                </div>
+                            </div>
+
                             <div class="d-block d-lg-none">
                                 <ul class="navbar-nav mr-auto">
                                     <!-- Sign In -->
@@ -39,6 +50,7 @@
                                 </ul>
                             </div>
                         </div>
+
 
                         <div class="d-none d-lg-block">
                             <ul class="navbar-nav mr-auto">
