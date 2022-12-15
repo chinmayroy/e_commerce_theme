@@ -3,7 +3,8 @@
     <template id="custom_header" inherit_id="website.layout" name="Custom Header">
         <xpath expr="//header" position="replace">
             <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                <!--Top Navbar Section-->
+                <nav class="navbar top-navbar sticky-top navbar-expand-lg sticky-top navbar-light bg-light py-3">
                     <div class="container">
                         <a class="navbar-brand" href="/">
                             <img style="height:40px; width:auto;" src="/e_commerce_theme/static/src/img/logo.png"/>
@@ -33,6 +34,56 @@
                                     </span>
                                 </div>
                             </div>
+
+                            <div class="d-block d-lg-none">
+                                <ul class="navbar-nav mr-auto">
+                                    <!-- Sign In -->
+                                    <t t-call="portal.placeholder_user_sign_in">
+                                        <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                                        <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                    </t>
+                                    <!-- User Dropdown -->
+                                    <t t-call="portal.user_dropdown">
+                                        <t t-set="_user_name" t-value="true"/>
+                                        <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                                        <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                    </t>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="d-none d-lg-block">
+                            <ul class="navbar-nav mr-auto">
+                                <!-- Sign In -->
+                                <t t-call="portal.placeholder_user_sign_in">
+                                    <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                                    <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                </t>
+                                <!-- User Dropdown -->
+                                <t t-call="portal.user_dropdown">
+                                    <t t-set="_user_name" t-value="true"/>
+                                    <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                                    <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                </t>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+
+                <!--Bottom Navbar Section-->
+                <nav class="navbar bottom-navbar navbar-expand-lg navbar-light bg-light py-3">
+                    <div class="container bottom-navbar-menu">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <t t-set="link_class" t-valuef="nav-link font-weight-medium"/>
+                                    </t>
+                                </t>
+                            </ul>
 
                             <div class="d-block d-lg-none">
                                 <ul class="navbar-nav mr-auto">
