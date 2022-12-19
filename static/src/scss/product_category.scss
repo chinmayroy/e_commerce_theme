@@ -1,14 +1,14 @@
 .venue-agents {
-    &.border-small .agent-img-container {
+    &.border-small .category-img-container {
         border:1px solid $secondary;
     }
-    &.border-medium .agent-img-container {
+    &.border-medium .category-img-container {
         border:3px solid $secondary;
     }
-    &.border-large .agent-img-container {
+    &.border-large .category-img-container {
         border:5px solid $secondary;
     }
-    &.border-extra-large .agent-img-container {
+    &.border-extra-large .category-img-container {
         border:10px solid $secondary;
     }
 
@@ -16,8 +16,8 @@
         display:none;
     }
 
-    .agent-img-container {
-        height:150px;
-        width:150px;
+    .category-img-container {
+        height:100px;
+        width:100px;
     }
 }

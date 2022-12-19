@@ -33,7 +33,7 @@
         </record>
 
         <!-- Cities Action for city submenu -->
-        <record id="cy_cities_action" model="ir.actions.act_window">
+        <record id="popular_products_action" model="ir.actions.act_window">
             <field name="name">Cities</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">cy.cities</field>
@@ -47,17 +47,17 @@
             </field>
         </record>
 
-        <!-- Cy Theme Root Menu -->
-        <menuitem id="cy_root_menu"
-        name="Cy Theme"
+        <!-- E-commerce Theme Root Menu -->
+        <menuitem id="e_commerce_theme_root_menu"
+        name="E-commerce Theme"
         sequence="85"
         parent="website.menu_website_configuration"/>
 
-        <!-- Cities Submenu -->
+        <!-- Popular Products Submenu -->
         <menuitem id="cy_cities_menu"
-        name="Cities"
+        name="Products"
         sequence="1"
-        parent="cy_root_menu"
-        action="e_commerce_theme.cy_cities_action"/>
+        parent="e_commerce_theme_root_menu"
+        action="e_commerce_theme.popular_products_action"/>
     </data>
 </odoo>

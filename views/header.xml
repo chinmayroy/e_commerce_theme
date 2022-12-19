@@ -2,47 +2,65 @@
 <odoo>
     <template id="custom_header" inherit_id="website.layout" name="Custom Header">
         <xpath expr="//header" position="replace">
-            <header>
+            <header class="sticky-top">
                 <!--Top Navbar Section-->
-                <nav class="navbar top-navbar sticky-top navbar-expand-lg sticky-top navbar-light bg-light py-3">
+                <nav class="navbar top-navbar navbar-expand-lg navbar-light bg-light py-3">
                     <div class="container">
                         <a class="navbar-brand" href="/">
-                            <img style="height:40px; width:auto;" src="/e_commerce_theme/static/src/img/logo.png"/>
+                            <img style="height:35px; width:auto;" src="/e_commerce_theme/static/src/img/logo.png"/>
                         </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"/>
-                        </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
+                        <!--  Code for dropdown menu-->
+                        <div class="dropdown">
+                            <div data-toggle="dropdown" id="top-dropdown1"
+                                 aria-haspopup="true" aria-expanded="false">
+                                <div id="nav-icon">
+                                    <span/>
+                                    <span/>
+                                    <span/>
+                                    <span/>
+                                </div>
+                                <div class="menu_text">Menu</div>
+                            </div>
+                            <div class="dropdown-menu" aria-labelledby="top-dropdown1">
                                 <t t-foreach="website.menu_id.child_id" t-as="submenu">
                                     <t t-call="website.submenu">
                                         <t t-set="item_class" t-valuef="nav-item"/>
                                         <t t-set="link_class" t-valuef="nav-link font-weight-medium"/>
                                     </t>
                                 </t>
-                            </ul>
-
-                            <div class="input-group md-form form-sm form-2 pl-0">
-                                <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search"
-                                       aria-label="Search"/>
-                                <div class="input-group-append">
-                                    <span class="input-group-text red lighten-3" id="basic-text1">
-                                        <i class="fas fa-search text-grey" aria-hidden="true"/>
-                                    </span>
-                                </div>
                             </div>
                         </div>
+
+                        <!--  Code for search box-->
+                        <div class="input-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Search Your Product"/>
+                            <div class="input-group-append btn-style">
+                                <button class="btn" type="button">
+                                    <i class="fa fa-search"/>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!--  Code for menu -->
+                        <div class="col-md-1"/>
+                        <div class="right-menu col-md-3">
+                            <ul class="navbar-nav mr-auto">
+                                <a href="#" class="rm-1">Recent Offer</a>
+                                <a href="#">Card</a>
+                            </ul>
+                        </div>
+
                     </div>
 
                 </nav>
+            </header>
 
-                <!--Bottom Navbar Section-->
+            <!--Bottom Navbar Section-->
+            <div>
                 <nav class="navbar bottom-navbar navbar-expand-lg navbar-light bg-light py-3">
                     <div class="container bottom-navbar-menu">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse" id="BottomNavbarSupportedContent">
                             <div class="bottom-navbar-menu-item">
                                 <ul class="navbar-nav mr-auto">
                                     <a href="#">Holiday Deals</a>
@@ -87,9 +105,8 @@
                             </ul>
                         </div>
                     </div>
-
                 </nav>
-            </header>
+            </div>
         </xpath>
     </template>
 </odoo>

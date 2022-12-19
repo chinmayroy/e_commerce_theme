@@ -1,1 +1,1 @@
-from . import cy_cities
+from . import popular_products

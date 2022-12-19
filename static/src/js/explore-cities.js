@@ -3,7 +3,7 @@
 import publicWidget from 'web.public.widget';
 
 publicWidget.registry.cyCities = publicWidget.Widget.extend({
-    selector: '.explore-cities',
+    selector: '.popular_product',
     start() {
         let citiesRow = this.el.querySelector('#cy-cities-row')
 
