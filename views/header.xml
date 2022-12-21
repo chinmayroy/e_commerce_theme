@@ -46,8 +46,8 @@
                         <div class="col-md-1"/>
                         <div class="right-menu col-md-3">
                             <ul class="navbar-nav mr-auto">
-                                <a href="#" class="rm-1">Recent Offer</a>
-                                <a href="#">Card</a>
+                                <a href="#" class="rm-1"><i class="fa fa-gift"/> Offer</a>
+                                <a href="#"><i class="fa fa-shopping-cart"/> Card</a>
                             </ul>
                         </div>
 

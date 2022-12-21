@@ -31,7 +31,7 @@
                         </div>
                         <div class="col-lg-2">
                             <h5>Quick Links</h5>
-                            <ul class="list-unstyled">
+                            <ul class="list-styled">
                                 <li>
                                     <a href="#">Home</a>
                                 </li>
@@ -53,8 +53,8 @@
                             </ul>
                         </div>
                         <div class="col-lg-2">
-                            <h5>Others Options</h5>
-                            <ul class="list-unstyled">
+                            <h5>Others</h5>
+                            <ul class="list-styled">
                                 <li>
                                     <a href="#">Mission</a>
                                 </li>

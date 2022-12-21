@@ -8,7 +8,7 @@
                 <div id="wrap">
 
                     <!--Find Your Product Section-->
-                    <section style="background-image: linear-gradient(blue,indigo,indigo);" class="s_cover parallax bg-primary pt96 pb96" data-scroll-background-ratio="1">
+                    <section style="background-image: linear-gradient(to bottom, #383e45, #0f1630, #0f1a36);" class="s_cover parallax bg-primary pt96 pb96" data-scroll-background-ratio="1">
 <!--                        <span class="s_parallax_bg oe_img_bg"-->
 <!--                              style="background-image: url('/e_commerce_theme/static/src/img/home-bg.jpg');"/>-->
                         <div class="container s_allow_columns">
@@ -23,7 +23,7 @@
                     </section>
 
                     <!--Product Category Section-->
-                    <section style="background-image: linear-gradient(indigo,indigo,blue);"
+                    <section style="background-image: linear-gradient(to top,#0f1630, #383e45, #0f1a36);"
                              class="product_category bg-primary border-none company-visible">
                         <div class="container">
                             <div class="text-center py-5">
