@@ -19,8 +19,8 @@
                                     <span/>
                                     <span/>
                                     <span/>
+                                    <div class="menu_text">Menu</div>
                                 </div>
-                                <div class="menu_text">Menu</div>
                             </div>
                             <div class="dropdown-menu" aria-labelledby="top-dropdown1">
                                 <t t-foreach="website.menu_id.child_id" t-as="submenu">

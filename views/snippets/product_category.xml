@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <template id="product_category" name="Product Category">
-        <section class="product_category bg-warning bg-gradient border-none company-visible">
+        <section style="background-image: linear-gradient(indigo,blue);"
+                 class="product_category bg-primary border-none company-visible">
             <div class="container">
                 <div class="text-center py-5">
                     <h2 class="h1">Product Category</h2>
