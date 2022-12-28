@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- template for our snippet -->
+    <template id="explore_product_category" name="Explore Category - Dynamic">
+        <section class="explore-category">
+            <div class="container">
+                <div class="text-center py-5">
+                    <h2 class="h2">Explore Category</h2>
+                    <p>Make Purchase Easier</p>
+                </div>
+
+                <!-- element to store list of category using JS -->
+                <div class="row column justify-content-center" id="explore_new_product_category"/>
+            </div>
+        </section>
+    </template>
+
+    <!-- To be used in JS for snippet options -->
+    <template id="explore_product_category_options" inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='Box']" position="after">
+            <div data-js="ExploreCategoryOptions" data-selector=".explore-category" data-drop-in=".o_mega_menu nav">
+            </div>
+        </xpath>
+    </template>
+</odoo>

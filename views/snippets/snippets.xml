@@ -5,14 +5,11 @@
             <div id="snippet_structure" class="o_panel">
                 <div class="o_panel_header">E-Commerce Theme</div>
                 <div class="o_panel_body">
-                    <t t-snippet="e_commerce_theme.product_category" t-thumbnail="/e_commerce_theme/static/src/img/snippets/product_category.svg">
+                    <t t-snippet="e_commerce_theme.explore_product_category" t-thumbnail="/e_commerce_theme/static/src/img/snippets/product_category.svg">
                         <keywords>product, category</keywords>
                     </t>
                     <t t-snippet="e_commerce_theme.new_products" t-thumbnail="/e_commerce_theme/static/src/img/snippets/new_products.svg">
-                        <keywords>venue, new venue, houses</keywords>
-                    </t>
-                    <t t-snippet="e_commerce_theme.popular_product" t-thumbnail="/e_commerce_theme/static/src/img/snippets/popular_product.svg">
-                        <keywords>popular, product</keywords>
+                        <keywords>new, product</keywords>
                     </t>
                 </div>
             </div>
@@ -37,7 +34,7 @@
         </xpath>
 
         <xpath expr="//we-select[@data-name='mega_menu_template_opt']" position="inside">
-            <t t-set="_label">Rent Menu</t>
+            <t t-set="_label">E-commerce Menu</t>
             <we-button t-att-data-select-label="_label" data-select-template="e_commerce_theme.rent_mega_menu" data-img="/e_commerce_theme/static/src/img/snippets/rent-mega-menu.svg" t-out="_label"/>
         </xpath>
     </template>

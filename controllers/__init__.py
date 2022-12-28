@@ -1,1 +1,1 @@
-from . import explore_cities
+from . import explore_product_category

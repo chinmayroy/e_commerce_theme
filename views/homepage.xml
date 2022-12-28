@@ -8,12 +8,12 @@
                 <div id="wrap">
 
                     <!--Find Your Product Section-->
-                    <section style="background-image: linear-gradient(to bottom, #383e45, #0f1630, #0f1a36);" class="s_cover parallax bg-primary pt96 pb96" data-scroll-background-ratio="1">
+                    <section style="background-image: linear-gradient(0.3turn, #71639e, #01bad2, #71639e);" class="s_cover parallax bg-primary pt80 pb80" data-scroll-background-ratio="1">
 <!--                        <span class="s_parallax_bg oe_img_bg"-->
 <!--                              style="background-image: url('/e_commerce_theme/static/src/img/home-bg.jpg');"/>-->
                         <div class="container s_allow_columns">
                             <p class="lead" style="text-align: left;">
-                                <strong>Find Your Products.</strong>
+                                <strong>Find Your Desired Products.</strong>
                                 <br/>
                                 Lorem ipsum is placeholder text commonly used in
                                 the graphic, print, and publishing industries for<br/>previewing layouts and visual
@@ -23,14 +23,12 @@
                     </section>
 
                     <!--Product Category Section-->
-                    <section style="background-image: linear-gradient(to top,#0f1630, #383e45, #0f1a36);"
+                    <section style="background-image: linear-gradient(0.23turn, #71639e, #01bad2, #71639e);"
                              class="product_category bg-primary border-none company-visible">
                         <div class="container">
                             <div class="text-center py-5">
-                                <h2 class="h1">Product Category</h2>
-                                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-                                    industries for<br/>previewing layouts and visual mockups.
-                                </p>
+                                <h2 class="h2">Product Category</h2>
+                                <p>Make your purchase easier.</p>
                             </div>
 
                             <div class="row pb-5">
@@ -171,7 +169,7 @@
                     </section>
 
                     <!--Popular Product Section-->
-                    <section class="popular_product">
+                    <section class="product_category">
                         <div class="container">
                             <div class="text-center py-5">
                                 <h2 class="h1">Popular Product</h2>
@@ -184,7 +182,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city1.png"/>
                                         </div>
                                         <div>
@@ -196,7 +194,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city2.png"/>
                                         </div>
                                         <div>
@@ -208,7 +206,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city3.png"/>
                                         </div>
                                         <div>
@@ -220,7 +218,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city4.png"/>
                                         </div>
                                         <div>
@@ -234,7 +232,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city5.png"/>
                                         </div>
                                         <div>
@@ -246,7 +244,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city6.png"/>
                                         </div>
                                         <div>
@@ -258,7 +256,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city7.png"/>
                                         </div>
                                         <div>
@@ -270,7 +268,7 @@
                                 <div class="col-lg-3">
                                     <div class="d-flex align-items-center">
                                         <div class="img-container mr-3 rounded">
-                                            <img class="country-image rounded"
+                                            <img class="category-image rounded"
                                                  src="/e_commerce_theme/static/src/img/city8.png"/>
                                         </div>
                                         <div>
@@ -301,7 +299,7 @@
                                     </div>
                                     <div class="mt-2">
                                         <span class="text-muted d-block">Product</span>
-                                        <span class="text-primary d-block h3 m-0">100 USD</span>
+                                        <span class="text-white d-block h3 m-0">100 USD</span>
                                         <span class="text-light d-block">Qty: 50pcs</span>
                                     </div>
                                 </div>
@@ -312,7 +310,7 @@
                                     </div>
                                     <div class="mt-2">
                                         <span class="text-muted d-block">Product</span>
-                                        <span class="text-primary d-block h3 m-0">100 USD</span>
+                                        <span class="text-white d-block h3 m-0">100 USD</span>
                                         <span class="text-light d-block">Qty: 50pcs</span>
                                     </div>
                                 </div>
@@ -323,7 +321,7 @@
                                     </div>
                                     <div class="mt-2">
                                         <span class="text-muted d-block">Product</span>
-                                        <span class="text-primary d-block h3 m-0">100 USD</span>
+                                        <span class="text-white d-block h3 m-0">100 USD</span>
                                         <span class="text-light d-block">Qty: 50pcs</span>
                                     </div>
                                 </div>
@@ -334,7 +332,7 @@
                                     </div>
                                     <div class="mt-2">
                                         <span class="text-muted d-block">Product</span>
-                                        <span class="text-primary d-block h3 m-0">100 USD</span>
+                                        <span class="text-white d-block h3 m-0">100 USD</span>
                                         <span class="text-light d-block">Qty: 50pcs</span>
                                     </div>
                                 </div>

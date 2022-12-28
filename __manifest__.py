@@ -12,21 +12,22 @@
         'views/header.xml',
         'views/footer.xml',
         'views/homepage.xml',
-        'views/venue_list_page.xml',
+        'views/product_category_view.xml',
         'views/menus.xml',
-        'views/snippets/product_category.xml',
+        'views/product_category_view.xml',
+
+        # All Snippets
         'views/snippets/new_products.xml',
-        'views/snippets/rent_mega_menu.xml',
-        'views/snippets/popular_product.xml',
+        'views/snippets/product_mega_menu.xml',
         'views/snippets/snippets.xml',
-        'views/popular_products.xml',
+        'views/snippets/explore_product_category.xml',
     ],
     'assets': {
         'web.assets_frontend': [
             'e_commerce_theme/static/src/scss/styles.scss',
             'e_commerce_theme/static/src/scss/product_category.scss',
-            'e_commerce_theme/static/src/js/popular_product.js',
-            'e_commerce_theme/static/src/js/popular_product-options.js',
+            # 'e_commerce_theme/static/src/js/product_category.js',
+            'e_commerce_theme/static/src/js/explore_product_category.js',
             'e_commerce_theme/static/src/js/jquery.js',
         ],
         'web._assets_primary_variables': [

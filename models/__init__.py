@@ -1,1 +1,1 @@
-from . import popular_products
+from . import product_category_view
