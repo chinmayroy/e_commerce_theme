@@ -11,7 +11,7 @@
                 <div class="row mt-5">
                     <div class="col-lg-3">
                         <div class="product-img-container rounded">
-                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product1.png"/>
+                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product.png"/>
                         </div>
                         <div class="mt-2">
                             <span class="text-muted d-block">New Product Name</span>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product-img-container rounded">
-                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product2.png"/>
+                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product.png"/>
                         </div>
                         <div class="mt-2">
                             <span class="text-muted d-block">New Product Name</span>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product-img-container rounded">
-                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product3.png"/>
+                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product.png"/>
                         </div>
                         <div class="mt-2">
                             <span class="text-muted d-block">New Product Name</span>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product-img-container rounded">
-                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product4.png"/>
+                            <img class="object-fit rounded" src="/e_commerce_theme/static/src/img/product.png"/>
                         </div>
                         <div class="mt-2">
                             <span class="text-muted d-block">New Product Name</span>

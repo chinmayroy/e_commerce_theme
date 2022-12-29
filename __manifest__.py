@@ -21,6 +21,9 @@
         'views/snippets/product_mega_menu.xml',
         'views/snippets/snippets.xml',
         'views/snippets/explore_product_category.xml',
+
+        # Web Template View
+        # 'views/web_template/all_product_view_template.xml',
     ],
     'assets': {
         'web.assets_frontend': [

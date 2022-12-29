@@ -2,7 +2,7 @@
 <odoo>
     <!-- template for our snippet -->
     <template id="explore_product_category" name="Explore Category - Dynamic">
-        <section class="explore-category">
+        <section class="explore-category bg-primary">
             <div class="container">
                 <div class="text-center py-5">
                     <h2 class="h2">Explore Category</h2>
