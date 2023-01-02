@@ -6,12 +6,14 @@
                 <!--Top Navbar Section-->
                 <nav class="navbar top-navbar navbar-expand-lg navbar-light bg-light py-3">
                     <div class="container">
-                        <a class="navbar-brand" href="/">
-                            <img style="height:35px; width:auto;" src="/e_commerce_theme/static/src/img/logo.png"/>
-                        </a>
+                        <div class="navbar-brand">
+                            <a href="/">
+                                <img style="height:35px; width:auto;" src="/e_commerce_theme/static/src/img/logo.png"/>
+                            </a>
+                        </div>
 
                         <!--  Code for dropdown menu-->
-                        <div class="dropdown">
+                        <div class="dropdown col-md-1">
                             <div data-toggle="dropdown" id="top-dropdown1"
                                  aria-haspopup="true" aria-expanded="false">
                                 <div id="nav-icon">
@@ -42,12 +44,18 @@
                             </div>
                         </div>
 
-                        <!--  Code for menu -->
-                        <div class="col-md-1"/>
-                        <div class="right-menu col-md-3">
+                        <!--  Code for right menu(rm) -->
+                        <div class="right-menu col-md-4">
                             <ul class="navbar-nav mr-auto">
-                                <a href="#" class="rm-1"><i class="fa fa-gift"/> Offer</a>
-                                <a href="#"><i class="fa fa-shopping-cart"/> Card</a>
+                                <a href="#" class="rm-1">
+                                    <i class="fa fa-gift"/>
+                                </a>
+                                <a href="/shop/cart" class="rm-2">
+                                    <i class="fa fa-shopping-cart"/>
+                                    <sup class="my_cart_quantity badge badge-primary mb-0 font-weight-bold"
+                                         t-out="website_sale_order and website_sale_order.cart_quantity or '0'"
+                                         t-att-data-order-id="website_sale_order and website_sale_order.id or ''"/>
+                                </a>
                             </ul>
                         </div>
 

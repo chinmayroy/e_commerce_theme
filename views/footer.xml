@@ -79,7 +79,7 @@
                             <h5>Newsletter</h5>
                             <form>
                                 <div class="input-group mb-3">
-                                    <input type="email" class="form-control" placeholder="Recipient's username"
+                                    <input type="email" class="form-control" placeholder="Recipient's email"
                                            aria-label="Your email" aria-describedby="button-addon2"/>
                                     <div class="input-group-append">
                                         <button class="btn btn-primary bg-success" type="button" id="button-addon2">

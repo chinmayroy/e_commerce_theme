@@ -6,24 +6,19 @@
     'category': 'Theme',
     'sequence': 10,
     'version': '15.0.1',
-    'depends': ['website'],
+    'depends': ['sale_product_configurator', 'website_sale_comparison', 'website_sale_wishlist',
+                'website_sale_stock'],
     'data': [
         'security/ir.model.access.csv',
         'views/header.xml',
         'views/footer.xml',
         'views/homepage.xml',
-        'views/product_category_view.xml',
-        'views/menus.xml',
-        'views/product_category_view.xml',
 
         # All Snippets
         'views/snippets/new_products.xml',
         'views/snippets/product_mega_menu.xml',
         'views/snippets/snippets.xml',
         'views/snippets/explore_product_category.xml',
-
-        # Web Template View
-        # 'views/web_template/all_product_view_template.xml',
     ],
     'assets': {
         'web.assets_frontend': [

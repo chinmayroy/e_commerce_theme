@@ -15,12 +15,12 @@ options.registry.ExploreCategoryOptions = options.Class.extend({
                 data.forEach(category => {
                     html += `<div class="col-lg-2 mb-5">
                         <div class="align-items-left">
-                        <a href="/${}" class="bg-primary">
+                        <a href="/shop/category/${category.name ? category.name : ''}.toLowerCase()-${category.id ? category.id : ''}" class="bg-primary">
                             <div class="img-container mr-3 rounded category_view">
-                                <img class="category-image" src="data:image/png;base64,${category.image}" alt="Category Image"/>
+                                <img class="category-image" src="data:image/png;base64,${category.image_1920}" alt="Category Image"/>
                             </div>
                             <div class="category-title">
-                                <h5>${category.category_name ? category.category_name : ''}</h5>
+                                <h5>${category.name ? category.name : ''}</h5>
                             </div>
                             </a>
                         </div>
