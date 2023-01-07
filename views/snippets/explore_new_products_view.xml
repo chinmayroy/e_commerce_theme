@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- template for our snippet -->
+    <template id="explore_new_products_template" name="New Products">
+        <section class="explore-category bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-left py-5">
+                        <h2 class="h2">New Products</h2>
+                    </div>
+                    <div class="col-md-6 text-right py-5">
+                        <a class="btn btn-primary" href="/shop">View All Products</a>
+                    </div>
+                </div>
+
+                <!-- element to store list of category using JS -->
+                <div class="row column justify-content-center" id="explore_new_products"/>
+            </div>
+        </section>
+    </template>
+
+    <!-- To be used in JS for snippet options -->
+    <template id="explore_new_products_template_view" inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='Box']" position="after">
+            <div data-js="ExploreNewProductsView" data-selector=".explore-category" data-drop-in=".o_mega_menu nav">
+            </div>
+        </xpath>
+    </template>
+</odoo>

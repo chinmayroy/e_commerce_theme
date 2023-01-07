@@ -3,12 +3,12 @@
     <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
         <xpath expr="//div[@id='snippet_structure']" position="before">
             <div id="snippet_structure" class="o_panel">
-                <div class="o_panel_header">E-Commerce Theme</div>
+                <div class="o_panel_header">E-Commerce - Dynamic Content</div>
                 <div class="o_panel_body">
                     <t t-snippet="e_commerce_theme.explore_product_category" t-thumbnail="/e_commerce_theme/static/src/img/snippets/product_category.svg">
                         <keywords>product, category</keywords>
                     </t>
-                    <t t-snippet="e_commerce_theme.new_products" t-thumbnail="/e_commerce_theme/static/src/img/snippets/new_products.svg">
+                    <t t-snippet="e_commerce_theme.explore_new_products_template" t-thumbnail="/e_commerce_theme/static/src/img/snippets/new_products.svg">
                         <keywords>new, product</keywords>
                     </t>
                 </div>

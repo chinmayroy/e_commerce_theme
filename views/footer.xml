@@ -7,24 +7,23 @@
                     <div class="row">
                         <div class="col-lg-5">
                             <img class="footer-logo" src="/e_commerce_theme/static/src/img/logo.png"/>
-                            <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <p class="py-3">Dolphin.com.bd a project of Daffodil Computers Ltd. From 1986 till now it
+                                remain leading IT company in Bangladesh.
                             </p>
 
                             <div class="s_share text-left no_icon_color" data-snippet="s_share"
                                  data-name="Social Media">
                                 <h5 class="s_share_title d-none">Follow us</h5>
-                                <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                <a href="https://www.facebook.com/dolphin.com.bd" class="s_share_facebook" target="_blank">
                                     <i class="fa fa-facebook m-1 rounded-circle border"/>
                                 </a>
-                                <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                <a href="https://twitter.com/dolphin_bd" class="s_share_twitter" target="_blank">
                                     <i class="fa fa-twitter m-1 rounded-circle border"/>
                                 </a>
-                                <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+                                <a href="https://www.linkedin.com/company/dolphin-com/" class="s_share_linkedin" target="_blank">
                                     <i class="fa fa-linkedin m-1 rounded-circle border"/>
                                 </a>
-                                <a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                                <a href="https://www.instagram.com/dolphin.com.bd/" class="s_share_instagram" target="_blank">
                                     <i class="fa fa-instagram m-1 rounded-circle border"/>
                                 </a>
                             </div>
@@ -89,11 +88,14 @@
                                 </div>
                             </form>
                             <p class="m-0">Contact Us</p>
-                            <div class="h2 m-0">
-                                <a href="tel:01234567890">01234567890</a>
+                            <div class="h3 m-0">
+                                <a href="tel:01713493273">(+88) 01713493273</a>
                             </div>
-                            <p>
-                                <a href="mailto:info@youremail.com" class="text-dark">info@youremail.com</a>
+                            <p class="h6">
+                                Email: <a href="mailto:ecom@dolphin.com.bd" class="text-dark">ecom@dolphin.com.bd</a>
+                            </p>
+                            <p class="h6 justify">
+                                Address: Dolphin Computers Ltd. 24-27, BCS Computer City, (Ground Floor) Agargoan, IDB Bhaban Dhaka-1207
                             </p>
                         </div>
                     </div>
@@ -102,9 +104,9 @@
             <hr/>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 text-left">Copyright 2022 © E-commerce Theme</div>
-                    <div class="col-md-4 text-right">Developed by
-                        <a href="https://facebook.com/chinmayroycom">Chinmay Roy</a>
+                    <div class="col-md-8 text-left">Dolphin Computers Limited © 1986-2023. All Rights Reserved.</div>
+                    <div class="col-md-4 text-right">A company by
+                        <a href="https://daffodil-bd.com/" target="_blank" title="https://chinmayroy.github.io/">Daffodil Computers Limited</a>
                     </div>
                 </div>
             </div>

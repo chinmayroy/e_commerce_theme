@@ -43,20 +43,34 @@
                                 </button>
                             </div>
                         </div>
+                        <template id="search_count_box" inherit_id="website.website_search_box" active="False"
+                                  customize_show="True" name="Show # found">
+                            <xpath expr="//button[contains(@t-att-class, 'oe_search_button')]" position="inside">
+                                <span t-if='search' class='oe_search_found'>
+                                    <small>(
+                                        <t t-esc="search_count or 0"/>
+                                        found)
+                                    </small>
+                                </span>
+                            </xpath>
+                        </template>
 
                         <!--  Code for right menu(rm) -->
                         <div class="right-menu col-md-4">
-                            <ul class="navbar-nav mr-auto">
-                                <a href="#" class="rm-1">
+                            <div class="navbar-nav mr-auto">
+                                <a href="#" class="rm-1 mr-3">
                                     <i class="fa fa-gift"/>
                                 </a>
-                                <a href="/shop/cart" class="rm-2">
+                                <a href="/shop/wishlist" class="rm-2 mr-3">
+                                    <i class="fa fa-heart-o"/>
+                                </a>
+                                <a href="/shop/cart" class="rm-3">
                                     <i class="fa fa-shopping-cart"/>
                                     <sup class="my_cart_quantity badge badge-primary mb-0 font-weight-bold"
                                          t-out="website_sale_order and website_sale_order.cart_quantity or '0'"
                                          t-att-data-order-id="website_sale_order and website_sale_order.id or ''"/>
                                 </a>
-                            </ul>
+                            </div>
                         </div>
 
                     </div>

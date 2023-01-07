@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <!-- template for our snippet -->
-    <template id="explore_product_category" name="Explore Category - Dynamic">
+    <template id="explore_product_category" name="Explore Category">
         <section class="explore-category bg-primary">
             <div class="container">
                 <div class="text-center py-5">

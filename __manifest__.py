@@ -15,17 +15,16 @@
         'views/homepage.xml',
 
         # All Snippets
-        'views/snippets/new_products.xml',
-        'views/snippets/product_mega_menu.xml',
         'views/snippets/snippets.xml',
         'views/snippets/explore_product_category.xml',
+        'views/snippets/explore_new_products_view.xml',
     ],
     'assets': {
         'web.assets_frontend': [
             'e_commerce_theme/static/src/scss/styles.scss',
             'e_commerce_theme/static/src/scss/product_category.scss',
-            # 'e_commerce_theme/static/src/js/product_category.js',
             'e_commerce_theme/static/src/js/explore_product_category.js',
+            'e_commerce_theme/static/src/js/explore_new_products_view.js',
             'e_commerce_theme/static/src/js/jquery.js',
         ],
         'web._assets_primary_variables': [
