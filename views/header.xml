@@ -12,19 +12,13 @@
                             </a>
                         </div>
 
-                        <!--  Code for dropdown menu-->
-                        <div class="dropdown col-md-1">
-                            <div data-toggle="dropdown" id="top-dropdown1"
-                                 aria-haspopup="true" aria-expanded="false">
-                                <div id="nav-icon">
-                                    <span/>
-                                    <span/>
-                                    <span/>
-                                    <span/>
-                                    <div class="menu_text">Menu</div>
-                                </div>
-                            </div>
-                            <div class="dropdown-menu" aria-labelledby="top-dropdown1">
+                        <!--  Code for Side Navbar menu-->
+                        <div class="side-navbar col-md-2">
+                            <span style="font-size:24px;cursor:pointer" onclick="openNavbar()">&#9776; Menu</span>
+                            <div id="sideNavbar" class="sidenav">
+                                <a href="javascript:void(0)" class="close-btn" onclick="closeNavbar()">
+                                    <i class="fa fa-times"/>
+                                </a>
                                 <t t-foreach="website.menu_id.child_id" t-as="submenu">
                                     <t t-call="website.submenu">
                                         <t t-set="item_class" t-valuef="nav-item"/>
@@ -130,5 +124,8 @@
                 </nav>
             </div>
         </xpath>
+        <!--        <xpath expr="." position="inside">-->
+        <!--                <script type="text/javascript" src="/easymile_timesheet/static/src/js/hour_report.js"/>-->
+        <!--            </xpath>-->
     </template>
 </odoo>
