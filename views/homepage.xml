@@ -9,8 +9,6 @@
 
                     <!--Find Your Product Section-->
                     <section style="background-image: linear-gradient(0.3turn, #71639e, #01bad2, #71639e);" class="s_cover parallax bg-primary pt80 pb80" data-scroll-background-ratio="1">
-<!--                        <span class="s_parallax_bg oe_img_bg"-->
-<!--                              style="background-image: url('/e_commerce_theme/static/src/img/home-bg.jpg');"/>-->
                         <div class="container s_allow_columns">
                             <p class="lead" style="text-align: left;">
                                 <strong>Find Your Desired Products.</strong>
@@ -19,119 +17,6 @@
                                 the graphic, print, and publishing industries for<br/>previewing layouts and visual
                                 mockups.
                             </p>
-                        </div>
-                    </section>
-
-                    <!--Popular Product Section-->
-                    <section class="product_category">
-                        <div class="container">
-                            <div class="text-center py-5">
-                                <h2 class="h1">Popular Product</h2>
-                                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-                                    industries for<br/>previewing layouts and visual mockups.
-                                </p>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mt-5">
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="img-container mr-3 rounded">
-                                            <img class="category-image rounded"
-                                                 src="/e_commerce_theme/static/src/img/product.png"/>
-                                        </div>
-                                        <div>
-                                            <h5 class="mb-0">Product Name</h5>
-                                            <div>★★★★★</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </section>
 

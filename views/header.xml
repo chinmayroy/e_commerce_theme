@@ -16,38 +16,34 @@
                         <div class="side-navbar col-md-2">
                             <span style="font-size:24px;cursor:pointer" onclick="openNavbar()">&#9776; Menu</span>
                             <div id="sideNavbar" class="sidenav">
-                                <a href="javascript:void(0)" class="close-btn" onclick="closeNavbar()">
-                                    <i class="fa fa-times"/>
-                                </a>
                                 <t t-foreach="website.menu_id.child_id" t-as="submenu">
                                     <t t-call="website.submenu">
                                         <t t-set="item_class" t-valuef="nav-item"/>
                                         <t t-set="link_class" t-valuef="nav-link font-weight-medium"/>
                                     </t>
                                 </t>
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <t t-set="link_class" t-valuef="nav-link font-weight-medium"/>
+                                    </t>
+                                </t>
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <t t-set="link_class" t-valuef="nav-link font-weight-medium"/>
+                                    </t>
+                                </t>
+                                <a href="javascript:void(0)" class="close-btn" onclick="closeNavbar()">
+                                    <i class="fa fa-times"/> Close
+                                </a>
                             </div>
                         </div>
 
                         <!--  Code for search box-->
                         <div class="input-group col-md-4">
-                            <input type="text" class="form-control" placeholder="Search Your Product"/>
-                            <div class="input-group-append btn-style">
-                                <button class="btn" type="button">
-                                    <i class="fa fa-search"/>
-                                </button>
-                            </div>
+                            <t t-snippet-call="website.s_searchbar_input" placeholder="Search Your Product"/>
                         </div>
-                        <template id="search_count_box" inherit_id="website.website_search_box" active="False"
-                                  customize_show="True" name="Show # found">
-                            <xpath expr="//button[contains(@t-att-class, 'oe_search_button')]" position="inside">
-                                <span t-if='search' class='oe_search_found'>
-                                    <small>(
-                                        <t t-esc="search_count or 0"/>
-                                        found)
-                                    </small>
-                                </span>
-                            </xpath>
-                        </template>
 
                         <!--  Code for right menu(rm) -->
                         <div class="right-menu col-md-4">
@@ -71,6 +67,7 @@
 
                 </nav>
             </header>
+
 
             <!--Bottom Navbar Section-->
             <div>
@@ -124,8 +121,5 @@
                 </nav>
             </div>
         </xpath>
-        <!--        <xpath expr="." position="inside">-->
-        <!--                <script type="text/javascript" src="/easymile_timesheet/static/src/js/hour_report.js"/>-->
-        <!--            </xpath>-->
     </template>
 </odoo>

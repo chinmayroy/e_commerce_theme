@@ -8,9 +8,6 @@
                     <t t-snippet="e_commerce_theme.explore_product_category" t-thumbnail="/e_commerce_theme/static/src/img/snippets/product_category.svg">
                         <keywords>product, category</keywords>
                     </t>
-                    <t t-snippet="e_commerce_theme.explore_new_products_template" t-thumbnail="/e_commerce_theme/static/src/img/snippets/new_products.svg">
-                        <keywords>new, product</keywords>
-                    </t>
                 </div>
             </div>
         </xpath>
